@@ -20,8 +20,8 @@
 //!
 //! ## Example
 //! ```rust
-//! use wallet-rust::bips::bip39::{Mnemonic, MnemonicType};
-//! use wallet-rust::bips::wordlists::Language;
+//! use wallet_rust::bips::bip39::{Mnemonic, MnemonicType};
+//! use wallet_rust::bips::wordlists::Language;
 //!
 //! let mnemonic = Mnemonic::new(MnemonicType::Words12, Language::English);
 //! let seed = mnemonic.to_seed("password");

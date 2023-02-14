@@ -29,7 +29,7 @@
 //!
 //! # Example
 //! ```rust
-//! use wallet-rust::bips::wordlists::Language;
+//! use wallet_rust::bips::wordlists::Language;
 //!
 //! let lang = Language::English;
 //! let wordlist = lang.wordlist(); // returns a list of words
