@@ -10,10 +10,10 @@ mod test{
 
     #[test]
     pub fn generate() {
-        use laron_wallet::bips::bip39::{Mnemonic, MnemonicType};
-        use laron_wallet::bips::wordlists::Language;
-        use laron_wallet::bips::bip32::ExtendedKey;
-        use laron_wallet::bips::DerivationPath;
+        use wallet_rust::bips::bip39::{Mnemonic, MnemonicType};
+        use wallet_rust::bips::wordlists::Language;
+        use wallet_rust::bips::bip32::ExtendedKey;
+        use wallet_rust::bips::DerivationPath;
         
         let mnemonic = Mnemonic::new(MnemonicType::Words12, Language::English);
         println!("{}",mnemonic);
