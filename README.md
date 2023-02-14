@@ -16,10 +16,10 @@ the following features:
 
 ### Example
 ```rust
-use laron_wallet::bips::bip39::{Mnemonic, MnemonicType};
-use laron_wallet::bips::wordlists::Language;
-use laron_wallet::bips::bip32::ExtendedKey;
-use laron_wallet::bips::DerivationPath;
+use wallet-rust::bips::bip39::{Mnemonic, MnemonicType};
+use wallet-rust::bips::wordlists::Language;
+use wallet-rust::bips::bip32::ExtendedKey;
+use wallet-rust::bips::DerivationPath;
 
 let mnemonic = Mnemonic::new(MnemonicType::Words12, Language::English);
 let seed = mnemonic.to_seed("password");
